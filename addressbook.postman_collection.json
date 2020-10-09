@@ -7,12 +7,12 @@
 	},
 	"item": [
 		{
-			"name": "getAllContact",
+			"name": "getAllContacts",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/app/addressbook/v1/getAllContact/book1",
+					"raw": "http://localhost:8080/api/app/addressbook/v1/getAllContacts/book1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -23,7 +23,7 @@
 						"app",
 						"addressbook",
 						"v1",
-						"getAllContact",
+						"getAllContacts",
 						"book1"
 					]
 				}
@@ -36,7 +36,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/app/addressbook/v1/getUniqueContacts/book1/book2",
+					"raw": "http://localhost:8080/api/app/addressbook/v1/getUniqueContacts/book2/book1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -48,8 +48,8 @@
 						"addressbook",
 						"v1",
 						"getUniqueContacts",
-						"book1",
-						"book2"
+						"book2",
+						"book1"
 					]
 				}
 			},
