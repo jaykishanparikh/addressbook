@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "cc6be98c-4cd4-4ed2-82f8-99ea339c1f47",
+		"name": "addressbook",
+		"description": "Address Book Apis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAllContact",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/app/addressbook/v1/getAllContact/book1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"app",
+						"addressbook",
+						"v1",
+						"getAllContact",
+						"book1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUniqueContacts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/app/addressbook/v1/getUniqueContacts/book1/book2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"app",
+						"addressbook",
+						"v1",
+						"getUniqueContacts",
+						"book1",
+						"book2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addContact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Andy\",\n    \"phoneNumber\": \"0444999888\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/app/addressbook/v1/addContact/book1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"app",
+						"addressbook",
+						"v1",
+						"addContact",
+						"book1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
