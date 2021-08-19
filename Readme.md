@@ -6,7 +6,7 @@ This is a simple address book api that performs basic operations such as adding 
   2. Address Book cannot hold duplicate contact record, meaning each contact is unique based on name.
   3. User's address book when created is always empty.  
   4. There is no delete operation developed.
-	5. Build server has java 1.8 runtime environment, and gradle.
+  5. Build server has java 1.8 runtime environment, and gradle.
 
 ## Requirement
 You have been asked to develop an address book that allows a user to store (between successive runs of the program) the name and phone numbers of their friends, with the following functionality:
@@ -24,7 +24,7 @@ For example given:
   1. Java 1.8, Reactive Spring & Spring boot
   2. Testing - JUnit 5, Postman
   3. Build tool – Gradle 6.4, jacoco code coverage reporting
-  7. In memory (java collection) database.
+  4. In memory (java collection) database.
 	
 ## Scope of the project
 This application offers following rest apis
@@ -37,10 +37,10 @@ GET /getAllContacts/{userName} - get list of contacts for the specific addressbo
 This application does not cover following
 
   1. API Authentation
-	2. User inteface
+  2. User inteface
   3. Containerisation (Docker)
-	4. Fully scallable microservices design
-	5. Extensive exception handling
+  4. Fully scallable microservices design
+  5. Extensive exception handling
 	
 ## Build
 ```
