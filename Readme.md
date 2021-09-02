@@ -46,7 +46,13 @@ This application does not cover following
 ```
 ./gradlew/clean build
 ```
-	
+## Deployment
+This repository is configured in heroku CICD pipeline for automatic build and deployment. Whenever the change is made into the master branch, the deployment triggers.
+Following the live site url - 
+
+https://gulmohar-example-1.herokuapp.com
+
+
 ## Run
 ```
 ./gradlew/buildRun
